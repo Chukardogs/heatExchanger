@@ -1,0 +1,262 @@
+FoamFile {
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object changeDictionaryDict;
+}
+dictionaryReplacement {
+    boundary {
+        face3 {
+            sampleMode nearestPatchFace;
+            samplePatch face92;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face4 {
+            sampleMode nearestPatchFace;
+            samplePatch face95;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face5 {
+            sampleMode nearestPatchFace;
+            samplePatch face94;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face6 {
+            sampleMode nearestPatchFace;
+            samplePatch face182;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face7 {
+            sampleMode nearestPatchFace;
+            samplePatch face84;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face8 {
+            sampleMode nearestPatchFace;
+            samplePatch face181;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face9 {
+            sampleMode nearestPatchFace;
+            samplePatch face179;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face10 {
+            sampleMode nearestPatchFace;
+            samplePatch face180;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face11 {
+            sampleMode nearestPatchFace;
+            samplePatch face176;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face12 {
+            sampleMode nearestPatchFace;
+            samplePatch face178;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face13 {
+            sampleMode nearestPatchFace;
+            samplePatch face177;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face14 {
+            sampleMode nearestPatchFace;
+            samplePatch face183;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face15 {
+            sampleMode nearestPatchFace;
+            samplePatch face88;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face16 {
+            sampleMode nearestPatchFace;
+            samplePatch face188;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face17 {
+            sampleMode nearestPatchFace;
+            samplePatch face91;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face18 {
+            sampleMode nearestPatchFace;
+            samplePatch face185;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face19 {
+            sampleMode nearestPatchFace;
+            samplePatch face100;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face20 {
+            sampleMode nearestPatchFace;
+            samplePatch face171;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face21 {
+            sampleMode nearestPatchFace;
+            samplePatch face172;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face22 {
+            sampleMode nearestPatchFace;
+            samplePatch face99;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face23 {
+            sampleMode nearestPatchFace;
+            samplePatch face96;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face24 {
+            sampleMode nearestPatchFace;
+            samplePatch face175;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face25 {
+            sampleMode nearestPatchFace;
+            samplePatch face86;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face26 {
+            sampleMode nearestPatchFace;
+            samplePatch face190;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face27 {
+            sampleMode nearestPatchFace;
+            samplePatch face89;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face28 {
+            sampleMode nearestPatchFace;
+            samplePatch face187;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face29 {
+            sampleMode nearestPatchFace;
+            samplePatch face102;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face30 {
+            sampleMode nearestPatchFace;
+            samplePatch face169;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face31 {
+            sampleMode nearestPatchFace;
+            samplePatch face168;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face32 {
+            sampleMode nearestPatchFace;
+            samplePatch face103;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face33 {
+            sampleMode nearestPatchFace;
+            samplePatch face104;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face34 {
+            sampleMode nearestPatchFace;
+            samplePatch face167;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face35 {
+            sampleMode nearestPatchFace;
+            samplePatch face189;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face36 {
+            sampleMode nearestPatchFace;
+            samplePatch face87;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face37 {
+            sampleMode nearestPatchFace;
+            samplePatch face186;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face38 {
+            sampleMode nearestPatchFace;
+            samplePatch face90;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face39 {
+            sampleMode nearestPatchFace;
+            samplePatch face170;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face40 {
+            sampleMode nearestPatchFace;
+            samplePatch face101;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face41 {
+            sampleMode nearestPatchFace;
+            samplePatch face98;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face42 {
+            sampleMode nearestPatchFace;
+            samplePatch face173;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face43 {
+            sampleMode nearestPatchFace;
+            samplePatch face174;
+            type mappedWall;
+            sampleRegion region3;
+        }
+        face44 {
+            sampleMode nearestPatchFace;
+            samplePatch face97;
+            type mappedWall;
+            sampleRegion region3;
+        }
+    }
+}

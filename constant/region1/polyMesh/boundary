@@ -1,0 +1,706 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/region1/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+44
+(
+    face1
+    {
+        type            patch;
+        nFaces          204;
+        startFace       2029684;
+    }
+    face2
+    {
+        type            patch;
+        nFaces          206;
+        startFace       2029888;
+    }
+    face3
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          827;
+        startFace       2030094;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face92;
+    }
+    face4
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          21900;
+        startFace       2030921;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face95;
+    }
+    face5
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          843;
+        startFace       2052821;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face94;
+    }
+    face6
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          1750;
+        startFace       2053664;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face182;
+    }
+    face7
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          1730;
+        startFace       2055414;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face84;
+    }
+    face8
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          84;
+        startFace       2057144;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face181;
+    }
+    face9
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          1581;
+        startFace       2057228;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face179;
+    }
+    face10
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          1547;
+        startFace       2058809;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face180;
+    }
+    face11
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          1564;
+        startFace       2060356;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face176;
+    }
+    face12
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          88;
+        startFace       2061920;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face178;
+    }
+    face13
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          1562;
+        startFace       2062008;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face177;
+    }
+    face14
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2736;
+        startFace       2063570;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face183;
+    }
+    face15
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2373;
+        startFace       2066306;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face88;
+    }
+    face16
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2395;
+        startFace       2068679;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face188;
+    }
+    face17
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2333;
+        startFace       2071074;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face91;
+    }
+    face18
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2355;
+        startFace       2073407;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face185;
+    }
+    face19
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2288;
+        startFace       2075762;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face100;
+    }
+    face20
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2393;
+        startFace       2078050;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face171;
+    }
+    face21
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2311;
+        startFace       2080443;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face172;
+    }
+    face22
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2274;
+        startFace       2082754;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face99;
+    }
+    face23
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2313;
+        startFace       2085028;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face96;
+    }
+    face24
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2371;
+        startFace       2087341;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face175;
+    }
+    face25
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          4073;
+        startFace       2089712;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face86;
+    }
+    face26
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3785;
+        startFace       2093785;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face190;
+    }
+    face27
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          4374;
+        startFace       2097570;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face89;
+    }
+    face28
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          5002;
+        startFace       2101944;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face187;
+    }
+    face29
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3828;
+        startFace       2106946;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face102;
+    }
+    face30
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          4128;
+        startFace       2110774;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face169;
+    }
+    face31
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          4072;
+        startFace       2114902;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face168;
+    }
+    face32
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3780;
+        startFace       2118974;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face103;
+    }
+    face33
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          4857;
+        startFace       2122754;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face104;
+    }
+    face34
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          4477;
+        startFace       2127611;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face167;
+    }
+    face35
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          1083;
+        startFace       2132088;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face189;
+    }
+    face36
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          1049;
+        startFace       2133171;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face87;
+    }
+    face37
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          1024;
+        startFace       2134220;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face186;
+    }
+    face38
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          1036;
+        startFace       2135244;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face90;
+    }
+    face39
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          967;
+        startFace       2136280;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face170;
+    }
+    face40
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          994;
+        startFace       2137247;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face101;
+    }
+    face41
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          968;
+        startFace       2138241;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face98;
+    }
+    face42
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          985;
+        startFace       2139209;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face173;
+    }
+    face43
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          944;
+        startFace       2140194;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face174;
+    }
+    face44
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          992;
+        startFace       2141138;
+        sampleMode      nearestPatchFace;
+        sampleRegion    region3;
+        samplePatch     face97;
+    }
+)
+
+// ************************************************************************* //

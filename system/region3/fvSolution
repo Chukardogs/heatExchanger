@@ -1,0 +1,44 @@
+FoamFile {
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object fvSolution;
+}
+solvers {
+    h {
+        solver PCG;
+        tolerance 1e-05;
+        relTol 0.01;
+        preconditioner DIC;
+    }
+}
+relaxationFactors {
+    dynamic on;
+    max {
+        U 0.3;
+    }
+    writeRelaxationParameters on;
+    fields {
+        p_rgh 0.9;
+        rho 0.01;
+    }
+    equations {
+        U 0.01;
+        h 0.01;
+        e 0.01;
+        k 0.01;
+        omega 0.01;
+    }
+}
+SIMPLE {
+    nNonOrthogonalCorrectors 0;
+    pRefCell 0;
+    pRefValue 100000.0;
+    rhoMin rhoMin [1 -3 0 0 0] 0.1;
+    rhoMax rhoMax [1 -3 0 0 0] 1000.0;
+    momentumPredictor on;
+    residualControl {
+        U 1e-05;
+        "p.*" 1e-05;
+    }
+}
